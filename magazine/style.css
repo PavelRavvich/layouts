@@ -206,3 +206,104 @@ img {
 
 
 /* --------------- /базовые настройки ---------*/
+
+.center-block-main {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    font-size: 1.375em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact-basket {
+    float: right;
+}
+
+.contact-basket p {
+    float: left;
+    font-size: 0.74em;
+    font-weight: bold;
+}
+
+.contact-basket p img {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.header-top {
+    padding: 30px 0 30px 0;
+    border-bottom: 1px #eee solid
+}
+
+.header-basket {
+    border: 1px solid #eee;
+    padding: 7px 20px;
+    margin-left: 20px;
+}
+
+.header-basket a {
+    text-transform: uppercase;
+    color: #7e7f84;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.header-basket a:hover {
+    color: #f45a3c;
+}
+
+.header-phone {
+    padding-top: 8px;
+}
+
+.header-buttom {
+    padding: 10px 0;
+}
+
+.menu {
+    float: left;
+}
+
+.search-block {
+    float: left;
+    margin-top: -2px;
+}
+
+.menu li {
+    float: left;
+    margin-right: 30px;
+    font-size: 0.875em;
+}
+
+.menu li a {
+    color: #7e7f84;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #f45a3C
+}
+
+.search-btn {
+    float: left;
+    margin: 3px 5px 0 0;
+}
+
+.search {
+    float: left;
+    font-size: 0.875em;
+    color: #7e7f84;
+    border: none;
+    line-height: 1.4;
+}
+
+input::placeholder {
+    color: rgb(216, 216, 216);
+}
+
+.slider {
+    margin-top: 15px;
+}
