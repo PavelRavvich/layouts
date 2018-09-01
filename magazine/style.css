@@ -483,3 +483,83 @@ p.price-basket {
     cursor: pointer;
     font-size: 1.1em;
 }
+
+.footer {
+    background: #2a2b34;
+    padding: 40px 40px;
+}
+
+.footer h2 {
+    color: #eee;
+    font-size: 1.325em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 0.875em;
+    margin-bottom: 10px;
+}
+
+.footer h3 {
+    font-size: 0.875em;
+    margin-bottom: 5px;
+}
+
+.footer h3 a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.footer h3 a:hover {
+    color: #eee;
+    text-decoration: underline;
+}
+
+.support {
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+}
+
+.support a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #7e7f84;
+}
+
+.support a:hover {
+    text-decoration: underline;
+}
+
+.ftrmail {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-bottom: 15px;
+    padding: 7px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.ftrtext {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-bottom: 15px;
+    padding: 7px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.ftrsubmit {
+    text-transform: uppercase;
+    font-size: 0.875em;
+    border: none;
+    background-color: #f45a30;
+    padding: 7px 20px;
+    color: #fff;
+    cursor: pointer;
+}
